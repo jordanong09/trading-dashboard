@@ -22,6 +22,10 @@ Thumbs.db
 
 # Scratch / screenshots
 *.png
+# keep the README screenshots (negation must be on its own line — no inline comments)
+!docs/
+!docs/screenshots/
+!docs/screenshots/*.png
 shoot*.py
 probe*.py
 diag.py
