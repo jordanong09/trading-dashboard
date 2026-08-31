@@ -1,14 +1,34 @@
 # TradeLens — Trading Performance Analytics
 
-A professional Streamlit dashboard that turns any Interactive Brokers year-to-date
-**Activity Statement** into a full view of trading performance — realized/unrealized
-P&L, stocks vs options, sector strengths/weaknesses, holding-period & day-vs-swing
-analysis, a weekly review console with a repeat-offender avoid list, a trading
-journal, option exercise/assignment tracking, and data-driven recommendations.
+> **TradeLens** is a local, privacy-first Streamlit dashboard that turns an Interactive
+> Brokers (IBKR) Activity Statement into a clear picture of how you actually trade. Upload
+> your statement and it reconciles your realized P&L to the cent, then breaks your results
+> down by stocks vs options, sector, holding period, day of week, and individual name —
+> surfacing your genuine strengths and weaknesses, a weekly review console with a
+> "repeat-offender" avoid list, a full trade journal, and plain-language recommendations.
+> Everything runs on your own machine, nothing is uploaded to any server, and a one-click
+> **Privacy mode** masks every dollar amount so you can share screenshots without exposing
+> your account. It's not investment advice — just an honest mirror of your trading history.
 
-**Light / dark theme toggle** in the sidebar (defaults to dark). All trading P&L is
-in **USD** (the instrument currency of the trades); account-level NAV / time-weighted
-return is shown separately in the account **base currency**.
+![TradeLens overview](docs/screenshots/overview-dark.png)
+
+All trading P&L is in **USD** (the instrument currency of the trades); account-level NAV /
+time-weighted return is shown separately in the account **base currency**. A **light / dark
+theme toggle** and a **privacy toggle** live in the sidebar.
+
+---
+
+## Screenshots
+
+*All screenshots below use Privacy mode, which hides real dollar amounts and account details.*
+
+| Sectors — strengths & weaknesses | Weekly review — avoid list |
+|---|---|
+| ![Sectors](docs/screenshots/sectors-dark.png) | ![Review](docs/screenshots/review-dark.png) |
+
+Light theme:
+
+![Light theme](docs/screenshots/overview-light.png)
 
 ---
 

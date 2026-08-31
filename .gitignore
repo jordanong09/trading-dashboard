@@ -22,6 +22,7 @@ Thumbs.db
 
 # Scratch / screenshots
 *.png
+!docs/screenshots/*.png   # keep the README screenshots
 shoot*.py
 probe*.py
 diag.py
