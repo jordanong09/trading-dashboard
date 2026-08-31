@@ -1,0 +1,28 @@
+# --- Personal trading statements: NEVER commit these ---
+data/*.csv
+data/*.CSV
+data/sector_cache.json
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch / screenshots
+*.png
+shoot*.py
+probe*.py
+diag.py
+*.log
